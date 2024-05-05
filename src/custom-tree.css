@@ -1,0 +1,15 @@
+/* custom-tree.css */
+
+.node__root > circle {
+    fill: rgb(225, 157, 80);
+}
+
+.node__branch > circle {
+    fill: rgb(244, 244, 39);
+}
+
+.node__leaf > circle {
+    fill: rgb(121, 193, 232);
+    /* Let's also make the radius of leaf nodes larger */
+    r: 40;
+}

@@ -1,0 +1,25 @@
+.App {
+    background-color: #110b04;
+    color: rgb(216, 244, 228);
+    height: 500px;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: rgb(161, 18, 18);
+    outline: rgb(102, 255, 0);
+    margin: 0px;
+    padding: 0;
+    padding-left: 0px;
+    background-color: transparent;
+    color: rgb(194, 151, 188); /* text color */
+    width: 50%;
+}
+
+.terminal {
+    white-space: pre-line;
+}
